@@ -16,6 +16,8 @@ public class Codingbat {
      */
     public static void main(String[] args) {
         System.out.println("logic 2 makeBricks "+Logic2.makeBricks(3,2,3));
+        System.out.println("lonesum "+Logic2.loneSum(3, 5, 7));
+        System.out.println("luckysum "+Logic2.luckySum(1, 2, 5));
     }
     
 }
