@@ -50,6 +50,13 @@ public class LeoBicycle {
        System.out.println();
        EMMELLE.testbell();
        EMMELLE.printDetails();
+       
+       merida.setbell();
+       EMMELLE.run(2000);
+       merida.run(1000);
+       merida.setshiftsmodify(5);
+       merida.testbell();
+       merida.printDetails();
     }
     
     
