@@ -9,7 +9,9 @@ package leoshape;
  *
  * @author leolu
  */
-public class Circle extends Superclassshape {
+public class Circle extends Superclassshape implements Comparable {
+    
+    
         private double radius;
         
         public Circle(String name, double r){
@@ -43,4 +45,11 @@ public class Circle extends Superclassshape {
             return (this.radius==obj.getradius());
         
         }
+        public int compareTo(Object x){
+        Circle y=(Circle) x;
+        return (int )(this.radius-y.radius);
+        }
+         public String toString(){
+    return "circle compare{"+this.radius+"}";
+    }
 }

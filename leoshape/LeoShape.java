@@ -5,6 +5,10 @@
  */
 package leoshape;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  *
  * @author leolu
@@ -27,6 +31,13 @@ public class LeoShape {
         System.out.println("Is m the same shape and size as n?");
         System.out.println(m.equals(n));
         
+        
+        List a=new ArrayList();
+        a.add(new Circle("one",6));
+        a.add(new Circle("two",2));
+        a.add(new Circle("three",3));
+        Collections.sort(a);
+        System.out.println(a);
     }
     
 }
